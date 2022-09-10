@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+    background-color: var(--background-color);
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.advice {
+    background-color: var(--advice-card-color);
+    width: 540px;
+    height: 335px;
+    border-radius: 4%;
+
+
+}
+
+.advice .advice-number {
+    background-color: var(--advice-card-color);
+    color: var(--advice-dice-color);
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    letter-spacing: 4px;
+
+
+}
+
+.advice .advice-text {
+    background-color: var(--advice-card-color);
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.advice .divider {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+.div-button{
+    width: 100%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button {
+    margin-top: 128px;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--advice-dice-color);
+}
+.button:hover{
+    box-shadow: 0 0 50px rgb(82, 255, 171)
+}
