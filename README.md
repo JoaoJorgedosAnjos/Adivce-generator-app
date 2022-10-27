@@ -1,16 +1,17 @@
-# Advice generator app v1
-Exercício de HTML+ CSS avançado do curso Dev Quest, baseado no desafio o Frontend Mentor “Advice generator app coding challenge”, sem a parte de JS nesse primeiro momento. 
-Com o proposito de construir um aplicativo que gere conselhos aleatórios. 📝
+# Advice generator app
+Exercício de HTML+ CSS avançado do curso Dev Quest, baseado no desafio o Frontend Mentor “Advice generator app coding challenge”.
+Com o proposito de construir um aplicativo que gere conselhos aleatórios utilizando uma API. 📝
 
-<img src="./src/gif/gif.gif" alt="imagem do projeto">
+<img src="./src/gif/advice.gif" alt="imagem do projeto">
 
 ## Tecnologias utlizadas
 - HTML
 - CSS
+- Javascript
 
-## Dificuldades no projeto
-- Posicionar e alinhar imagens
-- Estilizar as classes no css
-- Criar bons nomes para as classes
-- Utilizar o flexbox de maneira eficiente
+## O que aprendi no projeto
+- Trabalhar com API utilizando o fetch
+- Melhorei meus conhecimentos de Javascript; funções, variáveis, constantes e etc
+- Melhor compressão e domínio do DOM 
+
 
